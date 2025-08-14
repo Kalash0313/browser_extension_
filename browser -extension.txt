@@ -1,0 +1,90 @@
+ *Identify and Remove Suspicious Browser Extensions*
+
+*Internship:* Elevate Labs — Cyber Security Internship  
+*Student:* Kalash Bairagi  
+*Date:* 2025-08-14
+
+Objective
+To review installed browser extensions, identify suspicious ones, and remove them to enhance browser security.
+
+  Tools Used
+- Google Chrome (Windows)
+- Chrome Web Store for verification
+
+ Steps Overview
+1. Opened Chrome's Extension Manager (chrome://extensions/)
+2. Reviewed all installed extensions: Name, developer, permissions
+3. Verified developer reputation and store reviews
+4. Checked for broad/unsafe permissions
+5. Removed suspicious extensions (none found in this case)
+6. Restarted browser and verified performance
+
+Findings
+| Extension Name | Developer | Permissions Overview | Status | Reason |
+|----------------|-----------|----------------------|--------|--------|
+| GoFullPage – Full Page Screen Capture | GoFullPage | Basic capture permission | Kept | Safe, clear purpose |
+| Google Docs Offline | Google | Offline document access | Kept | Official Google extension |
+| McAfee® WebAdvisor | McAfee, LLC | Site reputation checks | Kept | Trusted security vendor |
+
+*Result:* No malicious or unnecessary extensions found.
+
+  Outcome
+- Verified browser extensions are safe
+- Documented a repeatable security check process
+
+
+
+
+ Execution Report — Task 7
+
+ Step 1: Open Extension Manager
+- Accessed chrome://extensions/ to see installed extensions.
+
+ Step 2: List Installed Extensions
+- GoFullPage – Full Page Screen Capture
+- Google Docs Offline
+- McAfee® WebAdvisor
+
+ Step 3: Review Permissions
+- Checked for permissions like “Read and change all data on all websites” — none found.
+
+ Step 4: Verify Source and Reviews
+- Confirmed all from official developers with good reviews.
+
+ Step 5: Decide Actions
+- All extensions kept; none removed.
+
+ Step 6: Restart and Verify
+- Restarted Chrome — normal performance observed.
+
+ Recommendations
+- Review extensions monthly
+- Avoid installing unknown extensions
+
+
+
+ Interview Questions & Answers
+
+1. How can browser extensions pose security risks? 
+   They can inject malicious scripts, steal data, or track user activity.
+
+2. What permissions should raise suspicion?  
+   Broad permissions like “Read and change all data on all websites” without valid reason.
+
+3. How to safely install browser extensions?  
+   Only from official stores, verify developer, check reviews and permissions.
+
+4. What is extension sandboxing?  
+   Isolation of extension processes to limit damage if compromised.
+
+5. Can extensions steal passwords?  
+   Yes, if granted content access on login pages.
+
+6. How to update extensions securely?  
+   Enable auto-updates, use official sources, review permissions on updates.
+
+7. Difference between extensions and plugins?  
+   Extensions modify browser behavior; plugins run external content (mostly deprecated).
+
+8. How to report malicious extensions? 
+   Use the store’s “Report Abuse” feature and provide details/screenshots.
