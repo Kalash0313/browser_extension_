@@ -15,7 +15,7 @@ To review installed browser extensions, identify suspicious ones, and remove the
 5. Removed suspicious extensions (none found)
 6. Restarted browser and verified performance
 
- 📊 Findings
+ Findings
 
 | Extension Name | Developer | Permissions Overview | Status | Reason |
 |----------------|-----------|----------------------|--------|--------|
@@ -23,10 +23,6 @@ To review installed browser extensions, identify suspicious ones, and remove the
 | Google Docs Offline | Google | Offline document access | ✅ Kept | Official Google extension |
 | McAfee® WebAdvisor | McAfee, LLC | Site reputation checks | ✅ Kept | Trusted security vendor |
 
- Evidence
-
-*Task Brief Screenshot:*  
-![Task Brief](task-brief.jpg)  
   
   Outcome
 - Verified browser extensions are safe.
